@@ -51,7 +51,7 @@ class shipscontroller extends controler
         }
         if(empty($dataInsert['ship_name']) || empty($dataInsert['serial_num']) || empty($_FILES['shippic']) || strlen($dataInsert['serial_num'])>8)
         {
-            header("Location:index.php?page=ships&params=false");
+            header("Location:index.php?page=addship&params=false");
             die();
         }
 
@@ -111,7 +111,7 @@ class shipscontroller extends controler
         }
         if(empty($dataInsert['ship_name']) || empty($dataInsert['serial_num']) || empty($_FILES['shippic']) || strlen($dataInsert['serial_num'])>8)
         {
-            header("Location:index.php?page=addship&params=false");
+            header("Location:index.php?page=ships&params=false");
             die();
         }
         $ship=$this->shipsModel->getShipById($id);

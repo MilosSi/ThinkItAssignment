@@ -145,7 +145,7 @@ class notificationcontroller extends controler
         }
         if(empty($dataUpdate['not_name']) || empty($dataUpdate['content']) || empty($dataRanks['ranks']))
         {
-            header("Location:index.php?page=addnotification&params=false");
+            header("Location:index.php?page=notifications&params=false");
             die();
         }
         $dataUpdate['user_not_id']=$_SESSION['user']->id;
