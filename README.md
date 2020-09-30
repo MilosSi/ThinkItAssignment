@@ -1,6 +1,6 @@
 # Environment preparing
 
-Create database on your SQL Server and import data from thinkit.sql.
+Create a database on your SQL Server and import data from thinkit.sql.
 
 ```bash
 app/config/.env
