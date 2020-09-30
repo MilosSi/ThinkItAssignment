@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34b88743-d263-4c1c-98c8-350dcca41433" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sidebar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601110151210</updated>
       <workItem from="1601110155216" duration="49149000" />
-      <workItem from="1601451592936" duration="13207000" />
+      <workItem from="1601451592936" duration="13458000" />
     </task>
     <servers />
   </component>
